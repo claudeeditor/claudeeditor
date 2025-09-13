@@ -1,0 +1,9 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell with Profile": {
+      "source": "PowerShell",
+      "args": ["-NoExit", "-Command", ". $PROFILE"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell with Profile"
+}

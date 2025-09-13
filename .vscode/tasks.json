@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Switch to AI Account",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-Command", "g1"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Switch to Context Account",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-Command", "g2"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Switch to Claude Account",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-Command", "g3"],
+      "problemMatcher": []
+    }
+  ]
+}
